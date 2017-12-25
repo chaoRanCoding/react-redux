@@ -1,0 +1,153 @@
+'use strict';
+// for mainTabs
+export const SWITCH_MAIN_TAB = 'SWITCH_MAIN_TAB';
+
+
+
+
+/*注册*/
+export const FETCH_CODE = 'FETCH_CODE';
+export const FETCH_REGISTER = 'FETCH_REGISTER';
+
+/*会员登录*/
+export const FETCH_LOGIN = 'FETCH_LOGIN';
+export const LOGIN_OUT = 'LOGIN_OUT';
+/*找回密码*/
+export const FETCH_PET_CODE = 'FETCH_PET_CODE';
+export const FETCH_PETPWD = 'FETCH_PETPWD';
+/*修改密码*/
+export const FETCH_EDITPWD = 'FETCH_EDITPWD';
+/*省市列表*/
+export const FETCH_AREA = 'FETCH_AREA';
+/*用户资料*/
+export const FETCH_USERINFO = 'FETCH_USERINFO';
+/*钱包*/
+export const FETCH_WALLET = 'FETCH_WALLET';
+/*提现历史*/
+export const FETCH_WDLOG = 'FETCH_WDLOG';
+export const FETCH_WDLOG_MORE = 'FETCH_WDLOG_MORE';
+
+/*金币记录*/
+export const FETCH_GOLDLOG = 'FETCH_GOLDLOG';
+export const FETCH_GOLDLOG_MORE ='FETCH_GOLDLOG_MORE';
+/*银币记录*/
+export const FETCH_SCLOG = 'FETCH_SCLOG';
+export const FETCH_SCLOG_MORE = 'FETCH_SCLOG_MORE';
+
+/*我的银行卡*/
+export const FETCH_BANKLIST = 'FETCH_BANKLIST';
+export const FETCH_BANKLIST_MORE = 'FETCH_BANKLIST_MORE';
+export const ADD_BANKCARD = 'ADD_BANKCARD';
+export const DEL_BANKCARD = 'DEL_BANKCARD';
+export const EDIT_BANKCARD = 'EDIT_BANKCARD';
+/*我的团队*/
+export const FETCH_TEAMLIST = 'FETCH_TEAMLIST';
+export const FETCH_TEAMLIST_MORE = 'FETCH_TEAMLIST_MORE';
+/*我的优惠券*/
+export const FETCH_COUPON = 'FETCH_COUPON';
+export const FETCH_COUPON_MORE = 'FETCH_COUPON_MORE';
+/*我的收货地址*/
+export const FETCH_ADDRESS = 'FETCH_ADDRESS';
+export const FETCH_ADDRESS_MORE = 'FETCH_ADDRESS_MORE';
+export const ADD_ADDRESS = 'ADD_ADDRESS';
+export const EDIT_ADDRESS = 'EDIT_ADDRESS';
+export const DEL_ADDRESS = 'DEL_ADDRESS';
+export const SETDF_ADDRESS = 'SETDF_ADDRESS';
+/*我的收藏*/
+export const FETCH_COLLECTION_BY_TYPEID = 'FETCH_COLLECTION_BY_TYPEID';
+export const FETCH_COLLECTION_BY_TYPEID_MORE = 'FETCH_COLLECTION_BY_TYPEID_MORE';
+export const DEL_COLLECTION = 'DEL_COLLECTION';
+
+/*我的发布*/
+export const FETCH_MYRELEASE = 'FETCH_MYRELEASE';
+export const FETCH_MYRELEASE_MORE = 'FETCH_MYRELEASE_MORE';
+export const FETCH_INITBOOK =  'FETCH_INITBOOK';
+export const FETCH_ADDBOOK = 'FETCH_ADDBOOK';
+export const FETCH_MY_DIARY_DETAILS = 'FETCH_MY_DIARY_DETAILS';
+export const FETCH_INITDIARY = 'FETCH_INITDIARY';
+export const FETCH_ADDDIARY = 'FETCH_ADDDIARY';
+export const FEACT_MY_DIARYCONTENT = 'FEACT_MY_DIARYCONTENT';
+export const FEACT_REPLYLIST = 'FEACT_REPLYLIST';
+export const FEACT_REPLYLIST_MORE = 'FEACT_REPLYLIST_MORE';
+
+export const POST_DIARYREPLY = 'POST_DIARYREPLY';
+export const ADD_REPLYITEM = 'ADD_REPLYITEM';
+
+
+/*首页*/
+export const FETCH_HOME_DIARY = 'FETCH_HOME_DIARY';
+export const FETCH_HOME_DIARY_BY_ID = 'FETCH_HOME_DIARY_BY_ID';
+export const FEACH_HOME_TOPPER = 'FEACH_HOME_TOPPER';
+/*医院列表*/
+export const FETCH_HOSPITALIST = 'FETCH_HOSPITALIST';
+export const FETCH_HOSPITALIST_MORE = 'FETCH_HOSPITALIST_MORE';
+
+/*医院详情*/
+export const FETCH_HOSPITALDEL = 'FETCH_HOSPITALDEL';
+export const FETCH_HOSPITAL_DOCTERS_LIST = 'FETCH_HOSPITAL_DOCTERS_LIST';
+export const FETCH_HOSPITAL_DOCTERS_LIST_MORE = 'FETCH_HOSPITAL_DOCTERS_LIST_MORE';
+
+/*医生列表*/
+export const FETCH_DOCTERLIST = 'FETCH_DOCTERLIST';
+export const FETCH_DOCTERLIST_MORE = 'FETCH_DOCTERLIST_MORE';
+
+
+/*医生名字，医生详情*/
+export const FETCH_DOCTORS_DETAILS = 'FETCH_DOCTORS_DETAILS';
+
+/*美丽日记*/
+export const FETCH_DIARYLIST = 'FETCH_DIARYLIST';
+export const FETCH_DIARYLIST_MORE = 'FETCH_DIARYLIST_MORE';
+
+/*日记详情*/
+export const FETCH_DIARYDATA = 'FETCH_DIARYDATA';
+export const FETCH_DIARYDATA_MORE = 'FETCH_DIARYDATA_MORE';
+
+/*意见反馈*/
+export const FETCH_OPINION = 'FETCH_OPINION';
+/*项目分类*/
+export const FETCH_PROJECT = 'FETCH_PROJECT';
+
+/*购物车*/
+export const ADD_CART = 'ADD_CART';
+export const FEACH_CART_LIST = 'FEACH_CART_LIST';
+export const CHECK_CART_ITEM = 'CHECK_CART_ITEM';
+export const DEL_CART_ITEM = 'DEL_CART_ITEM';
+export const NUM_CAETR_ITEM = 'NUM_CAETR_ITEM';
+export const CLEAR_CART = 'CLEAR_CART';
+/*项目排行*/
+export const FETCH_PROJECTLIST = 'FETCH_PROJECTLIST';
+export const FETCH_PROJECTLIST_MORE = 'FETCH_PROJECTLIST_MORE';
+
+/*确认项目订单*/
+
+export const FETCH_PROJECT_ORDER = 'FETCH_PROJECT_ORDER';
+export const POST_PROJECT_ORDER = 'POST_PROJECT_ORDER';
+
+//项目详情
+export const FETCH_PROJECTDETAILS = 'FETCH_PROJECTDETAILS';
+// 立即购买
+export const FETCH_DIRECTBUY = 'FETCH_DIRECTBUY';
+
+//获取购物车数量
+export const FETCH_CARTCOUNT = 'FETCH_CARTCOUNT ';
+/*服务订单列表*/
+
+export const FETCH_PROJECT_ORDER_LIST = 'FETCH_PROJECT_ORDER_LIST';
+export const FETCH_PROJECT_ORDER_LIST_MORE = 'FETCH_PROJECT_ORDER_LIST_MORE';
+export const FETCH_PROJECT_ORDER_DETAILS = 'FETCH_PROJECT_ORDER_DETAILS';
+
+//商品
+export const FETCH_SHOP = 'FETCH_SHOP';
+
+//商品列表
+export const  FETCH_SHOPLIST = 'FETCH_SHOPLIST';
+export const FETCH_SHOPLIST_MORE = 'FETCH_SHOPLIST_MORE';
+
+//商品详情
+export  const FETCH_SHOPDETAILS = 'FETCH_SHOPDETAILS';
+
+//医生资料
+export  const FEACH_DOCTOR_INFO = 'FEACH_DOCTOR_INFO';
+
+
